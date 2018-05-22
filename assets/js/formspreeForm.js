@@ -5,7 +5,7 @@ const submitForm = (e) => {
     type: 'post',
     data: $('#formspree-form').serialize(),
     success: function () {
-      alert("worked");
+      alert("Thank you for your message. I'll get back to you ASAP");
     }
   });
 };
