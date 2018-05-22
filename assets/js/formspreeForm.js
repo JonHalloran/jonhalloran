@@ -10,5 +10,5 @@ const submitForm = (e) => {
   });
 };
 
-const form = document.getElementsByID("formspree-form");
+const form = document.getElementByID("formspree-form");
 form.addEventListener("submit", (e) => submitForm(e));
